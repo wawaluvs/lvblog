@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Louis Vuitton</h1>
+        </div>
+    </header>
+
+    <main class="logout-page">
+        <div class="logout-container">
+            <i class="fas fa-sad-tear emoji-icon"></i>
+            <h2>Are you sure you want to log out?</h2>
+            <p>Your journey with us doesn't have to end here.</p>
+            <div class="buttons">
+                <a href="index.html" class="btn cancel">Cancel</a>
+                <a href="logged-out.html" class="btn confirm">Confirm Logout</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Louis Vuitton</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .logo h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .logout-page {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logout-container {
+            background: #fff;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .emoji-icon {
+            font-size: 3rem;
+            color: #ff6b6b;
+        }
+        .logout-container h2 {
+            margin: 20px 0 10px;
+            font-size: 1.8rem;
+            color: #333;
+        }
+        .logout-container p {
+            margin: 0 0 20px;
+            color: #666;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+        .btn.cancel {
+            background: #ccc;
+            color: #333;
+        }
+        .btn.cancel:hover {
+            background: #bbb;
+        }
+        .btn.confirm {
+            background: #000;
+            color: #fff;
+        }
+        .btn.confirm:hover {
+            background: #444;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #000;
+            color: #fff;
+        }
+    </style>
+</body>
+</html>
